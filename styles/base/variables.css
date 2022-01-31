@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+  /* font */
+  --font-family-source-pro: 'Source Sans Pro', sans-serif;
+  --font-family-sans-serif: var(--font-family-source-pro);
+
+  --font-size-xl: 3.55rem;
+  --font-size-l: 2.44rem;
+  --font-size-m: 1.77rem;
+  --font-size-s: 1.22rem;
+  --font-size-card-title: var(--font-size-s);
+
+  /* color */
+  --body-bg: #fafafa;
+  --primary-green: #80fbb8;
+  --secondary-green: #56bb7a;
+  --primary-dark: #040d21;
+  --primary-light: #f6f8fa;
+
+  /* spacing */
+  --section-padding-xlg: 150px;
+  --section-padding-lg: 100px;
+  --section-padding-md: 50px;
+  --section-padding-sm: 25px;
+
+  /* grid */
+  --row-gutter-x: 1.5rem;
+  --row-gutter-y: 0;
+}

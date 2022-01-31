@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
-    <div className={styles.main}>
-      <h1>Hello there!!!</h1>
+    <div className="container">
+      <Hero />
     </div>
   )
 }
