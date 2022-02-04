@@ -1,8 +1,6 @@
-import React from 'react'
-
 const Section = ({ children, styles }) => {
   return (
-    <section className={`section ${styles}`}>
+    <section className={`section ${styles ? styles : ''}`.trim()}>
       {children}
     </section>
   )

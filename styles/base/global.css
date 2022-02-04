@@ -137,3 +137,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     padding-bottom: 150px;
   }
 }
+.section--gradient {
+  background-image: var(--background-gradient);
+}

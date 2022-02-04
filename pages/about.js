@@ -1,13 +1,13 @@
 import Section from '../components/section/Section'
 
-const Contact = () => {
+const About = () => {
   return (
     <Section>
       <div className="container">
-        <h1>Contact</h1>
+        <h1>About</h1>
       </div>
     </Section>
   )
 }
 
-export default Contact
+export default About

@@ -1,13 +1,13 @@
 import Section from '../../components/section/Section'
 
-const WorkShow = () => {
+const BlogShow = () => {
   return (
     <Section>
       <div className="container">
-        <h1>WorkShow</h1>
+        <h1>BlogShow</h1>
       </div>
     </Section>
   )
 }
 
-export default WorkShow
+export default BlogShow
