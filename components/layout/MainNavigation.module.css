@@ -38,7 +38,8 @@
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
-.nav__item:hover:after {
+.nav__item:hover:after,
+.nav__item.active:after {
   transform: scaleX(1);
 }
 .navspacer {
