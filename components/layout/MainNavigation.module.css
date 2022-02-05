@@ -1,6 +1,9 @@
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #f1f1f1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .nav {
   display: flex;
@@ -65,7 +68,8 @@
   box-decoration-break: clone;
   transition: all 250ms linear;
 }
-.logo:hover {
+.logo:hover,
+.logo:active {
   color: var(--secondary-green);
   background-position: center right, top right;
 }
