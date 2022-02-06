@@ -16,7 +16,8 @@
   }
 }
 @media (min-width: 992px) {
-  .container {
+  .container,
+  .container.container--sm {
     max-width: 960px;
   }
 }
@@ -57,4 +58,12 @@
   flex: 1 0 0%;
   align-items: flex-start;
   justify-content: center;
+}
+@media(min-width: 768px) {
+  .col.col-1-4 {
+    flex: 1 0 25%;
+  }
+  .col.col-3-4 {
+    flex: 1 0 75%;
+  }
 }

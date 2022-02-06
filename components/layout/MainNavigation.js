@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+
 import styles from './MainNavigation.module.css'
 
 const MainNavigation = () => {
@@ -16,9 +17,7 @@ const MainNavigation = () => {
             <a className={[styles.logo, styles.logoorder].join(' ')}>NM</a>
           </Link>
           <span className={styles.navspacer} aria-hidden="true"></span>
-          <Link
-            href="/about"
-          >
+          <Link href="/about" >
             <a
               className={
                 [

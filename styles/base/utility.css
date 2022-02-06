@@ -1,0 +1,19 @@
+/* display */
+.d-none {
+  display: none !important
+}
+.d-none--mobile {
+  display: none !important
+}
+@media(min-width: 768px) {
+  .d-none--mobile {
+    display: block !important
+  }
+}
+/* spacing */
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.pt-0 {
+  padding-top: 0 !important;
+}

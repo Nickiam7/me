@@ -1,6 +1,6 @@
-const Section = ({ children, styles }) => {
+const Section = ({ children, classes }) => {
   return (
-    <section className={`section ${styles ? styles : ''}`.trim()}>
+    <section className={`section ${classes ? classes : ''}`.trim()}>
       {children}
     </section>
   )

@@ -139,3 +139,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 .section--gradient {
   background-image: var(--background-gradient);
 }
+.section--dark {
+  background-color: var(--primary-dark);
+}
+.section--dark > * {
+  color: #ffffff;
+}
