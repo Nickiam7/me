@@ -61,9 +61,18 @@
 .pb-lg {
   padding-bottom: var(--section-padding-lg) !important;
 }
+.mb-sm {
+  margin-bottom: var(--section-padding-sm) !important;
+}
+.mb-md {
+  margin-bottom: var(--section-padding-md) !important;
+}
+.mb-lg {
+  margin-bottom: var(--section-padding-lg) !important;
+}
 /* text */
 .text-xl {
-  font-size: var(--font-size-sm) !important;
+  font-size: var(--font-size-md) !important;
 }
 @media(min-width: 768px) {
   .text-xl {

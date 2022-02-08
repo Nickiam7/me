@@ -22,7 +22,7 @@ const Home = () => {
               classes="col--1-3 justify-content-start"
             >
               <Row>
-                <h2 className="text-xl">Principles</h2>
+                <h2 className="text-xl mb-sm">Principles</h2>
               </Row>
             </Col>
             <Col
