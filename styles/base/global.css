@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: var(--font-family-source-pro);
   font-size: var(--font-size-sm);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
   color: var(--primary-dark);
   background-color: var(--body-bg);
