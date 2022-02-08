@@ -15,5 +15,9 @@ export const principles = [
     header: 'DRY',
     body: 'Don\'t Repeat Yourself creates a more enjoyable developer experience which ultimately translates to a better end-user experience. Creating global stylesheets, reusable components along with well-structured, flexible code are essential to a DRY developer experience.'
   },
+  {
+    header: 'Life-long Learning and Passion',
+    body: 'Life-long Learning and Passion go hand-in-hand. Life-long Learning is the drives to continually try to learn new skills and improve upon those already acquired. Passion fules the drive to put 100% effort, knowledge and skill into the job at hand.'
+  },
 ]
 
