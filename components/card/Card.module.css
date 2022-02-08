@@ -1,0 +1,20 @@
+.card {
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
+.cardBlue {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  border: none;
+  background-color: #0c162d;
+  color: #8193b2 !important;
+  height: 100%;
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 10%),
+    0 3px 2px rgb(0 0 0 / 4%),
+    0 7px 5px rgb(0 0 0 / 2%),
+    0 13px 10px rgb(0 0 0 / 2%),
+    0 22px 17px rgb(0 0 0 / 2%) !important;
+}

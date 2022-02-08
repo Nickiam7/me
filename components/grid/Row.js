@@ -1,6 +1,6 @@
-const Row = ({ children }) => {
+const Row = ({ children, classes }) => {
   return (
-    <div className="row">
+    <div className={`row ${classes ? classes : ''}`.trim()}>
       {children}
     </div>
   )
