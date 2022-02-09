@@ -1,16 +1,24 @@
-import '../styles/app.css'
+import Head from 'next/head'
 
 import Layout from '../components/layout/Layout'
 import MainNavigation from '../components/layout/MainNavigation'
 import Footer from '../components/layout/Footer'
 
+import '../styles/app.css'
+
 function Me({ Component, pageProps }) {
   return (
-    <Layout>
+    <>
+      <Head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <MainNavigation />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
       <Footer />
-    </Layout>
+    </>
   )
 }
 

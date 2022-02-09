@@ -10,6 +10,11 @@
     display: block !important
   }
 }
+/* position */
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
 /* spacing */
 .py-0 {
   padding-bottom: 0 !important;

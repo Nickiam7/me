@@ -12,6 +12,10 @@ import { principles } from '../data/data'
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Nick McNeany - Full-Stack Web and Software developer</title>
+        <meta name="description" content="Nick McNeany - personal website" />
+      </Head>
       <Hero />
       <Section
         classes="section--dark pt-0"
@@ -22,7 +26,7 @@ const Home = () => {
               classes="col--1-3 justify-content-start"
             >
               <Row>
-                <h2 className="text-xl mb-sm">Principles</h2>
+                <h2 className="text-xl mb-sm sticky-top">Principles</h2>
               </Row>
             </Col>
             <Col
