@@ -25,7 +25,12 @@ body {
 *::after {
   box-sizing: border-box;
 }
-
+:focus-visible {
+    outline: var(--secondary-green) auto 1px;
+    outline-color: var(--secondary-green);
+    outline-style: solid;
+    outline-width: 2px;
+}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -115,7 +120,11 @@ a {
 a:hover {
   color: var(--primary-dark);
 }
-
+label {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
 strong {
   font-weight: bolder;
 }
@@ -139,7 +148,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
-
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -162,4 +170,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 .section--dark > * {
   color: #ffffff;
+}
+form {
+  display: block;
+  width: 100%;
+  padding: 1rem
 }

@@ -1,5 +1,12 @@
 import Head from 'next/head'
+
+import Card from '../components/card/Card'
 import Section from '../components/section/Section'
+import Container from '../components/grid/Container'
+import Row from '../components/grid/Row'
+import Col from '../components/grid/Col'
+
+import ContactForm from '../components/contact-form/ContactForm'
 
 const Contact = () => {
   return (
@@ -9,10 +16,24 @@ const Contact = () => {
         <meta name="description" content="Feel free to reach out to me!" />
       </Head>
       <Section>
-        <div className="container">
+        <Container>
           <h1 className="pb-sm">Contact</h1>
-          <p>I&apos;m always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi! <a href="mailto:nmcneany@gmail.com">NMcNeany @ gmail.com</a></p>
-        </div>
+          <Row>
+            <Col
+              classes="col"
+            >
+              <p>I&apos;m always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi!</p>
+            </Col>
+            <Col
+              classes="col"
+            >
+              <Card>
+                <ContactForm />
+              </Card>
+            </Col>
+          </Row>
+
+        </Container>
       </Section>
     </>
   )

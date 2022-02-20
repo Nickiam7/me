@@ -1,7 +1,7 @@
 export const principles = [
   {
     header: 'Accessibility',
-    body: 'Web Accessibility is just as important as writing good code. Clean semantic markup with an easy to navigate design that allows for keyboard navigation, screen readers and other assistive technologies to their jobs provides the best possible experience for all users.'
+    body: 'Web Accessibility is just as important as writing good code. Clean semantic markup with an easy to navigate design that allows for keyboard navigation, screen readers and other assistive technologies to do their jobs provides the best possible experience for all users.'
   },
   {
     header: 'Mobile First',

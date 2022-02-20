@@ -26,6 +26,20 @@
 .pt-0 {
   padding-top: 0 !important;
 }
+.py-sm {
+  padding-top: var(--section-padding-sm) !important;
+  padding-bottom: var(--section-padding-sm) !important;
+}
+.py-md {
+  padding-top: var(--section-padding-sm) !important;
+  padding-bottom: var(--section-padding-sm) !important;
+}
+@media(min-width: 992px) {
+  .py-md {
+    padding-top: var(--section-padding-md) !important;
+    padding-bottom: var(--section-padding-md) !important;
+  }
+}
 .py-lg {
   padding-top: var(--section-padding-sm) !important;
   padding-bottom: var(--section-padding-sm) !important;
