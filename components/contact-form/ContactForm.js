@@ -22,7 +22,7 @@ const ContactForm = () => {
     e.preventDefault()
     const { email, fullname, message } = form
 
-    const response = await fetch('http://localhost:3000/api/contact', {
+    const response = await fetch('/api/contact', {
       method: 'POST',
       body: JSON.stringify({
         email,
