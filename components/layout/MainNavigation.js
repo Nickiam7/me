@@ -1,14 +1,34 @@
+import { useEffect, useRef } from 'react'
+
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 import styles from './MainNavigation.module.css'
 
 const MainNavigation = () => {
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll);
+  })
+
   const router = useRouter()
 
   const current_page = (path) => {
     return router.pathname == path ? styles.active : ''
   }
+
+  const handleScroll = () => {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      header.current.classList.add('shadow')
+      header.current.classList.remove('shadow--none')
+    } else {
+      header.current.classList.add('shadow--none')
+      header.current.classList.remove('shadow')
+    }
+  }
+
+  const header = useRef()
+
   return (
     <>
       <div className="visually-hidden-focusable overflow-hidden">
@@ -16,7 +36,7 @@ const MainNavigation = () => {
           <Link href="/#content">Skip to main content</Link>
         </div>
       </div>
-      <header className={styles.header}>
+      <header ref={header} className={styles.header}>
         <div className="container">
           <nav
             className={styles.nav}

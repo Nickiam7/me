@@ -1,8 +1,8 @@
-const TextInput = ({ label, type, id, required }) => {
+const TextInput = ({ label, type, id, required, ...props }) => {
   return (
     <>
       <label htmlFor={id}>{label}</label>
-      <input className="form-control" type={type} id={id} required={required} />
+      <input {...props} className="form-control" type={type} id={id} required={required} />
     </>
   )
 }
