@@ -19,14 +19,10 @@ const Contact = () => {
         <Container>
           <h1 className="pb-sm">Contact</h1>
           <Row>
-            <Col
-              classes="col"
-            >
+            <Col>
               <p>I&apos;m always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi!</p>
             </Col>
-            <Col
-              classes="col"
-            >
+            <Col>
               <Card>
                 <ContactForm />
               </Card>
