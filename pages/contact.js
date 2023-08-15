@@ -24,7 +24,7 @@ const Contact = () => {
             </Col>
             <Col>
               <Card>
-                <ContactForm />
+                If you'd like to reach out, please send me and email at nmcneany[@]gmail.com!
               </Card>
             </Col>
           </Row>
