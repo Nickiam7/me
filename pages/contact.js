@@ -20,11 +20,11 @@ const Contact = () => {
           <h1 className="pb-sm">Contact</h1>
           <Row>
             <Col>
-              <p>I'm always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi!</p>
+              <p>I&apos;m always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi!</p>
             </Col>
             <Col>
               <Card>
-                If you'd like to reach out, please send me and email at nmcneany[@]gmail.com!
+                If you&apos;d like to reach out, please send me and email at nmcneany[@]gmail.com!
               </Card>
             </Col>
           </Row>
