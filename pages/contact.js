@@ -20,7 +20,7 @@ const Contact = () => {
           <h1 className="pb-sm">Contact</h1>
           <Row>
             <Col>
-              <p>I&apos;m always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi!</p>
+              <p>I'm always excited to hear from people. Please feel free to reach out to talk about new opportunities, cool projects, questions, to chat or just to say hi!</p>
             </Col>
             <Col>
               <Card>
