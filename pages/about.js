@@ -13,7 +13,7 @@ const About = () => {
         <div className="container">
           <h1 className="pb-sm">Welcome!</h1>
           <p className="h1">Allow myself to introduce... myself.</p>
-          <p>My name is Nick McNeany and I&apos;m a Full-Stack Web and Softare Developer.</p>
+          <p>My name is Nick McNeany and I&apos;m a Full-Stack Web and Software Developer.</p>
           <p>I&apos;ll be updating this page soon, but for now here&apos;s a quick run-down about me.</p>
           <ul>
             <li>I love my family more than anything</li>
