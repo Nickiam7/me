@@ -20,7 +20,7 @@ const About = () => {
             <li>I have a strong passion for web and software development</li>
             <li>I love cooking with my wife</li>
             <li>I love chasing and jumping of the couch with my daughter (no serious injuries... yet)</li>
-            <li>My son and I love watching Monster Jam together</li>
+            <li>My son and I <span style="text-decoration: line-through;">love watching Monster Jam</span> SPIDER MAN together</li>
             <li>I like to draw</li>
             <li>I really enjoy mowing my lawn</li>
           </ul>
