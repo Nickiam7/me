@@ -32,6 +32,14 @@ const Hero = () => {
               />
             </Col>
           </Row>
+          <Row>
+            <div>I just released a new Ruby on Rails 8 course</div>        
+            <div>
+                <a href="https://www.udemy.com/course/ruby-on-rails-8-and-hotwire-build-a-password-manager/?referralCode=D28C6DA9CA20DC38D8E3">
+                  Ruby on Rails 8 and Hotwire : Build a Password Manager
+                </a>
+            </div>        
+          </Row>        
         </Container>
         <Container>
           <Row
